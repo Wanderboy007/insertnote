@@ -1,0 +1,18 @@
+.body{
+    background: #00afef00; 
+    
+  }
+  
+  .grid{
+    display: grid; 
+    gap: 0.5rem; 
+    grid-template-columns:3fr 1fr 1fr 1fr ; 
+    text-align: center; 
+    margin: 50px; 
+    font-size: 1.3rem;  
+    
+  } 
+  
+  .navLeft{
+    text-align: left;
+  } 

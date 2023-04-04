@@ -1,0 +1,69 @@
+.body{
+  background: #00afef00; 
+  
+}
+
+.grid{
+  display: grid; 
+  gap: 0.5rem; 
+  grid-template-columns: 3fr 1fr 1fr 1fr ; 
+  text-align: center; 
+  margin: 50px; 
+  font-size: 1.5rem;  
+  
+} 
+
+.navLeft{
+  text-align: left;
+} 
+
+.branchcard{
+  text-align: center; 
+  border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+  transition: ease-in-out 0.3s; 
+ 
+} 
+
+.branchcard:hover{
+  text-align: center; 
+  /* background: rgba(5, 150, 240, 0.075);  */
+  background: rgba(0, 98, 159, 0.11);
+box-shadow: 0 8px 32px 0 rgba(96, 96, 96, 0.37);
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+  transform: translate(0px,-10px);
+  
+  
+}  
+
+.branchgrid{
+  display: grid; 
+  padding: 2%;
+  gap: 0.5rem; 
+  grid-template-columns:1fr 1fr 1fr 1fr ; 
+  text-align: center; 
+  margin: 30px;
+  
+} 
+
+.year{ 
+  color: whitesmoke ;
+  cursor: pointer; 
+  margin: 10px 10px; 
+ 
+}
+.year:hover{ 
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px 10px;
+ 
+}
+ 
+.branchheading{
+  position: relative;
+  font: 3rem sans-serif;
+  
+ 
+}
